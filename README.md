@@ -1,4 +1,4 @@
-# Train the model
+# Train the model, Train the model using 50 samples for training, 20 samples for testing, and the first 100 genes as features.
 python3 train.py \
 --data_folder ./BRCA \
 --num_class 5 \
