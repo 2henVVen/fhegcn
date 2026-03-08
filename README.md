@@ -9,6 +9,5 @@ python3 train.py \
   --epochs 200 \
   --hidden_dim 64 \
   --topk 10
-
 # Run FHE inference
 python3 amainfer.py --ckpt ./work_dir/best_poly_view1_sub50+20_feat100.bundle.pt
